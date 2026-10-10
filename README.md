@@ -32,10 +32,13 @@ copied.
 - **[snort](snort)** — intrusion detection basics.
 - **[splunk](splunk)** — SIEM-style alert investigation.
 - **[wireshark](wireshark)** — packet capture analysis.
+  - **[icmp-firewall-lab](wireshark/icmp-firewall-lab)** — blocking ping with a Windows
+    Firewall rule on the DC and using Wireshark to prove the server was up the whole time
+    (DNS answered, ICMP dropped).
 
 ## Tools & Technologies
 
-Windows Server 2022, Active Directory, Group Policy, PowerShell, Python, VirtualBox, Google Workspace (Forms, Sheets, Drive) ·
+Windows Server 2022, Active Directory, Group Policy, PowerShell, Python, VirtualBox, Google Workspace (Forms, Sheets, Drive), Windows Defender Firewall ·
 CyberChef, VirusTotal, AbuseIPDB, Snort, Splunk, Wireshark, TryHackMe (Blue Team paths)
 
 ## Disclaimer
